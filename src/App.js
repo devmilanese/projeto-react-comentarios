@@ -26,7 +26,7 @@ class App extends Component {
       if(user){
         this.setState({ isLoggedIn: true, user })
       }else{
-        this.setState({ isLoggedIn: false, user: {} })
+         this.setState({ isLoggedIn: false, user: {} })
       }
     })
 
